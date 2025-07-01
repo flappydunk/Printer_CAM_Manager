@@ -40,13 +40,15 @@ A Command panel to provide the operator full command capability and logging of a
 
 The Hardware
 
-ESP32-CAM with camera and wifi aerial (AI thinker ESP32 CAM with 
+Note: I have this built on a breadboard next to the printer. It has been tested OK so far. I am currently building a final board and a mount for the printer which will be added later. The final build should have these components.
+
+ESP32-CAM with camera and wifi aerial (AI thinker ESP32 CAM with camera)
 
 level shifter (4 Channel IIC I2C Logic Level 5V 3.3V Converter)
 
-buck power module (converter 12v printer PSU to 5.6V for ESP)
+buck power module LM2596 (converter 12v printer PSU to 5.6V for ESP)
 
-FTDI module for programming and debug.
+FTDI module FT232RL 3.3 and 5v for programming and debug.
 
 Isolation switch for printer interface.
 
@@ -54,7 +56,7 @@ Programming push button (external).
 
 Power switch.
 
-Jumper field (used for testing to read or listen to messages from the printer or computer interface)
+Jumper field (used for revearse engineering and testing to read or listen to messages from the printer or computer interface)
 
 
 ![printer_CAM](https://github.com/user-attachments/assets/0f339c00-12bf-4e90-a097-c10990f55b1b)

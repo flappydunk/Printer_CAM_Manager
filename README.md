@@ -6,7 +6,7 @@ The hardware is based on a ESP32-CAM (AI thinker ESP32-CAM)
 The software was developed with the Arduino IDE
 
 The original camera streaming video software for the camera was developed by Rui Santos & Sara Santos - Random Nerd Tutorials
-This I have adapted to provide to include a reliable serial interface to the printer, real time video stream from the ESP32 camera and a web server to provide a fully functional management interface. I have tried to modularise it so it can be adapted for other printers and web interfaces.
+This I have adapted to provide to include a reliable interrupt driven serial interface from the printer, real time video stream from the ESP32 camera and a web server to provide a fully functional management interface. I have tried to modularise it so it can be adapted for other printers and web interfaces.
 
 Particular attention has been developed to ensure simultanious camera and serial performance. This project then provides a Octoprint style functionality with some additions.
 A fully functional web interface covering:

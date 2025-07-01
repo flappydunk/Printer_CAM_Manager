@@ -1,6 +1,6 @@
 # Printer ESP32-CAM Manager
 This provides a fully function camera monitor and management interface for a 3D printer. This can be powered by the printer or separately. 
-This has been fully tested using a ultimaker style home made printer, REPRAP RAMPS 1.6 and Marlin firmware.
+This has been fully tested using a ultimaker style home made printer, REPRAP RAMPS 1.6 and Marlin firmware with a single extruder and heated bed.
 
 The hardware is based on a ESP32-CAM (AI thinker ESP32-CAM)
 The software was developed with the Arduino IDE

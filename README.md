@@ -1,11 +1,11 @@
-# Printer_CAM_Manager
-This provides a fully function camera monitor and management interface for a 3D printer. This can be powered by the printer or seperatly. 
-This has been fully tested using a  ultimaker type home made printer, REPRAP RAMPS 1.6 and Marlin firmware.
+# Printer ESP32-CAM Manager
+This provides a fully function camera monitor and management interface for a 3D printer. This can be powered by the printer or separately. 
+This has been fully tested using a ultimaker style home made printer, REPRAP RAMPS 1.6 and Marlin firmware.
 
 The hardware is based on a ESP32-CAM (AI thinker ESP32-CAM)
 The software was developed with the Arduino IDE
 
-The camera streming video software for the camera was developed by Rui Santos & Sara Santos - Random Nerd Tutorials
+The original camera streaming video software for the camera was developed by Rui Santos & Sara Santos - Random Nerd Tutorials
 This I have adapted to provide to include a reliable serial interface to the printer, real time video stream from the ESP32 camera and a web server to provide a fully functional management interface. I have tried to modularise it so it can be adapted for other printers and web interfaces.
 
 Particular attention has been developed to ensure simultanious camera and serial performance. This project then provides a Octoprint style functionality with some additions.
@@ -14,7 +14,7 @@ Real time image stream of the printer
 Real time Bed and extruder temperatures
 SD Card support, reading and SD file printing
 A Action panel having various controls for the management of the printer.
-A adhoc command panel to provide the operator full command capability and logging of all data (both rx and tx) of the printer interface.
+A Command panel to provide the operator full command capability and logging of all data (both rx and tx) of the printer interface.
 
 
 

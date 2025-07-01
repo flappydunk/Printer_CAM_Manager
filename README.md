@@ -33,8 +33,7 @@ A Command panel to provide the operator full command capability and logging of a
 
 ![image](https://github.com/user-attachments/assets/c8e6b942-5034-4add-bb6d-6c5964714379)
 
-![image](https://github.com/user-attachments/assets/c51942cc-989d-4c36-a047-d52a1aacefd7)
-
+![image](https://github.com/user-attachments/assets/6e8e5a1c-002c-4417-a191-8a3f0504961b)
 
 ![image](https://github.com/user-attachments/assets/f73917e0-b846-48fd-b1d5-55e15f40fcf3)
 

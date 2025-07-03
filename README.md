@@ -5,7 +5,7 @@ This has been fully tested using a ultimaker style home made printer, REPRAP RAM
 The hardware is based on a ESP32-CAM (AI thinker ESP32-CAM)
 The software was developed with the Arduino IDE
 
-The original camera streaming video software for the camera was developed by Rui Santos & Sara Santos - Random Nerd Tutorials
+The original camera streaming video software for the camera was developed by Rui Santos & Sara Santos - Random Nerd Tutorials.
 This I have adapted to provide to include a reliable interrupt driven serial interface from the printer, real time video stream from the ESP32 camera and a web server to provide a fully functional management interface. I have tried to modularise it so it can be adapted for other printers and web interfaces.
 
 Particular attention has been developed to ensure simultanious camera and serial performance. This project then provides a Octoprint style functionality with some additions.
@@ -13,8 +13,6 @@ Particular attention has been developed to ensure simultanious camera and serial
 A fully functional web interface covering:
 
 ESP32-CAM reset, light.
-
-Printer reset output (not tested).
 
 Real time image stream of the printer.
 
@@ -31,7 +29,7 @@ A Command panel to provide the operator full command capability and logging of a
 
 ![image](https://github.com/user-attachments/assets/94c114ee-b2b1-4910-8ae4-ca88eb97109d)
 
-![image](https://github.com/user-attachments/assets/c8e6b942-5034-4add-bb6d-6c5964714379)
+![image](https://github.com/user-attachments/assets/ee14f15f-ecab-41ac-8998-bc380a092746)
 
 ![image](https://github.com/user-attachments/assets/6e8e5a1c-002c-4417-a191-8a3f0504961b)
 
@@ -48,7 +46,7 @@ level shifter (4 Channel IIC I2C Logic Level 5V 3.3V Converter)
 
 buck power module LM2596 (converter 12v printer PSU to 5.6V for ESP)
 
-FTDI module FT232RL 3.3 and 5v for programming and debug.
+FTDI module FT232RL 3.3v for programming and debug.
 
 Isolation switch for printer interface.
 
@@ -58,8 +56,5 @@ Power switch.
 
 Jumper field (used for revearse engineering and testing to read or listen to messages from the printer or computer interface)
 
-
-![printer_CAM](https://github.com/user-attachments/assets/0f339c00-12bf-4e90-a097-c10990f55b1b)
-
-
+![printer_CAM](https://github.com/user-attachments/assets/e16bda3a-7c67-4443-9448-4db5d37c62a1)
 

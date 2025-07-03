@@ -36,7 +36,8 @@ A Command panel to provide the operator full command capability and logging of a
 ![image](https://github.com/user-attachments/assets/f73917e0-b846-48fd-b1d5-55e15f40fcf3)
 
 Software
-Modify the arduion code and place this 
+
+Modify the arduino code and place this 
 
 // Replace with your network credentials
 

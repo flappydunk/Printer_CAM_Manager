@@ -38,8 +38,6 @@ A Command panel to provide the operator full command capability and logging of a
 
 The Hardware
 
-Note: I have this built on a breadboard next to the printer. It has been tested OK so far. I am currently building a final board and a mount for the printer which will be added later. The final build should have these components.
-
 ESP32-CAM with camera and wifi aerial (AI thinker ESP32 CAM with camera)
 
 level shifter (4 Channel IIC I2C Logic Level 5V 3.3V Converter)
